@@ -16,17 +16,15 @@
 }
 
 /* 畫線border */
-/* body>*:not(aside,section), */
-body>*,
+body>*,:not(aside,section),
 aside>*,
 section>*{
-    border: 5px solid lightgray;
+    border: 1px solid lightgray;
 }
 
 /* top */
 
 .top{
-    border-bottom: 0 ;
     flex-basis: 1000px;
     height: 65px;
 }
@@ -37,13 +35,13 @@ section>*{
     height: calc(768px - 65px - 20px);
     display: flex;
     flex-direction: column;
-    border-right: 0;
+
 }
 
 /* aside header .menu  */
 .menu{
     flex-basis: calc(100% - 25px);
-    border: 0ch;
+
 }
 
 /* aside update */
