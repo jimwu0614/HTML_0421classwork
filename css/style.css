@@ -7,6 +7,7 @@
 /* body.main */
 .main{
     display: flex;
+    /* height: 768px; */
     width: 1024px;
     padding: 0 , 12px;
     margin: 10px auto;
@@ -16,53 +17,61 @@
 }
 
 /* 畫線border */
-body>*,:not(aside,section),
-aside>*,
-section>*{
+body>*:not(aside, section),
+.aside>*,
+.section>*{
     border: 1px solid lightgray;
 }
+
+/* .top , .menu , .update ,  .marquee ,.content ,.footer{
+    border: 1px solid lightgray;
+} */
 
 /* top */
 
 .top{
-    flex-basis: 1000px;
+    /* flex-basis: 1000px; */
+    width: 1000px;
     height: 65px;
 }
 
 /* aside */
 .aside{
-    flex-basis: 215px;
+    /* flex-basis: 215px; */
+    width: 215px;
     height: calc(768px - 65px - 20px);
     display: flex;
     flex-direction: column;
-
 }
 
 /* aside header .menu  */
 .menu{
-    flex-basis: calc(100% - 25px);
-
+    /* flex-basis: calc(100% - 25px); */
+    height: calc(100% - 25px);
 }
 
 /* aside update */
 .update{
-    flex-basis: 25px;
+    /* flex-basis: 25px; */
+    height: 25px;
     font-family: '標楷體';
     color: #000000;
     text-align: center;
     font-size: 16px;
-    
 }
 
 /* section */
 .section{
-    flex-basis: calc(1000px - 215px);
+    /* flex-basis: calc(1000px - 215px); */
+    /* flex-basis: 785px; */
+    width: calc(1000px - 215px);
     display: flex;
     flex-direction: column;
 }
 
 .marquee{
-    flex-basis: 29px;
+    /* flex-basis: 29px; */
+    height: 29px;
     font-family: '標楷體';
     font-size: 24px;
     color: #0000FF;
@@ -79,5 +88,7 @@ section>*{
     color: #000000;
     text-align: center;
     font-size: 16px;
-
+}
+a{
+    color: #000000;font-size: 16px;
 }
