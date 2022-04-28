@@ -48,6 +48,7 @@ body>*:not(aside, section),
 .menu{
     /* flex-basis: calc(100% - 25px); */
     height: calc(100% - 25px);
+    
 }
 
 .menuHead{
@@ -66,8 +67,8 @@ body>*:not(aside, section),
     font-size: 16px;
     width: 200px;
     height: 35px;
-    margin-top: 10px;
     /* line-height: 35px; */
+    margin-top: 10px;
     padding-top: 8px;
     background-image: url(../images/menu1.png);
     /* background: url(../images/menu1.png) no-repeat; */
